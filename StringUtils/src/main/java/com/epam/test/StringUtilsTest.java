@@ -14,7 +14,9 @@ class StringUtilsTest {
             "0,false",
             "32,true",
             "-278,false",
-            "java,false"
+            "java,false",
+            "null,false",
+            " ,false"
     })
     void isPositiveNumberMethod(String input, boolean expected) {
         boolean result = StringUtils.isPositiveNumber(input);
